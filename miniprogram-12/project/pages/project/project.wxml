@@ -1,0 +1,11 @@
+<view class="container">
+  <view wx:if="{{errorMsg}}" class="error">{{errorMsg}}</view>
+  <view wx:else>
+    <block wx:for="{{projects}}" wx:key="id">
+      <view class="project-item">
+        <view class="title">{{item.title}}</view>
+        <view class="description">{{item.description}}</view>
+      </view>
+    </block>
+  </view>
+</view>

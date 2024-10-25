@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  color: #888;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

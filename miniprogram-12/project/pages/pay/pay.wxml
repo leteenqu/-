@@ -1,0 +1,6 @@
+<view class="container">
+  <input class="input" placeholder="输入支付金额" type="number" bindinput="onAmountInput" />
+  <button class="pay-button" bindtap="makePayment">支付</button>
+  <view class="success">{{successMsg}}</view>
+  <view class="error">{{errorMsg}}</view>
+</view>

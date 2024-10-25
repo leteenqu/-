@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="form">
+    <input class="input" placeholder="职位标题" bindinput="onTitleInput"/>
+    <textarea class="textarea" placeholder="职位描述" bindinput="onDescriptionInput"></textarea>
+    <button class="post-button" bindtap="postJob">发布职位</button>
+    <view class="success">{{successMsg}}</view>
+    <view class="error">{{errorMsg}}</view>
+  </view>
+</view>
